@@ -28,7 +28,6 @@ class SongList extends Component {
 
 // Connect component config - Name of function is convention
 const mapStateToProps = (state) => {
-  console.log(state);
   return { songs: state.songs }
 };
 
